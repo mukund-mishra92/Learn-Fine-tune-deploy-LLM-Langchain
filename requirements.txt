@@ -1,4 +1,6 @@
 langchain
+python-dotenv
+langchain-openai
 ipykernel
 langchain_community
 pypdf
@@ -9,3 +11,4 @@ pymupdf
 wikipedia
 langchain-text-splitters
 unstructured
+chromadb
