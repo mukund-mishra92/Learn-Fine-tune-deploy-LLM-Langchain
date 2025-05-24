@@ -1,0 +1,66 @@
+Emotion recognition
+
+6 languages
+Article
+Talk
+Read
+Edit
+View history
+
+Tools
+Appearance  hide
+Text
+
+Small
+
+Standard
+
+Large
+Width
+
+Standard
+
+Wide
+Color (beta)
+
+Automatic
+
+Light
+
+Dark
+From Wikipedia, the free encyclopedia
+Part of a series on
+Artificial intelligence (AI)
+
+hide
+Major goals
+Artificial general intelligence Intelligent agent Recursive self-improvement Planning Computer vision General game playing Knowledge representation Natural language processing Robotics AI safety
+show
+Approaches
+show
+Applications
+show
+Philosophy
+show
+History
+show
+Glossary
+vte
+Emotion recognition is the process of identifying human emotion. People vary widely in their accuracy at recognizing the emotions of others. Use of technology to help people with emotion recognition is a relatively nascent research area. Generally, the technology works best if it uses multiple modalities in context. To date, the most work has been conducted on automating the recognition of facial expressions from video, spoken expressions from audio, written expressions from text, and physiology as measured by wearables.
+
+Human[edit]
+Main article: Emotion perception
+Humans show a great deal of variability in their abilities to recognize emotion. A key point to keep in mind when learning about automated emotion recognition is that there are several sources of "ground truth", or truth about what the real emotion is. Suppose we are trying to recognize the emotions of Alex. One source is "what would most people say that Alex is feeling?" In this case, the 'truth' may not correspond to what Alex feels, but may correspond to what most people would say it looks like Alex feels. For example, Alex may actually feel sad, but he puts on a big smile and then most people say he looks happy. If an automated method achieves the same results as a group of observers it may be considered accurate, even if it does not actually measure what Alex truly feels. Another source of 'truth' is to ask Alex what he truly feels. This works if Alex has a good sense of his internal state, and wants to tell you what it is, and is capable of putting it accurately into words or a number. However, some people are alexithymic and do not have a good sense of their internal feelings, or they are not able to communicate them accurately with words and numbers. In general, getting to the truth of what emotion is actually present can take some work, can vary depending on the criteria that are selected, and will usually involve maintaining some level of uncertainty.
+
+Automatic[edit]
+Decades of scientific research have been conducted developing and evaluating methods for automated emotion recognition. There is now an extensive literature proposing and evaluating hundreds of different kinds of methods, leveraging techniques from multiple areas, such as signal processing, machine learning, computer vision, and speech processing. Different methodologies and techniques may be employed to interpret emotion such as Bayesian networks.[1] , Gaussian Mixture models[2] and Hidden Markov Models[3] and deep neural networks.[4]
+
+Approaches[edit]
+The accuracy of emotion recognition is usually improved when it combines the analysis of human expressions from multimodal forms such as texts, physiology, audio, or video.[5] Different emotion types are detected through the integration of information from facial expressions, body movement and gestures, and speech.[6] The technology is said to contribute in the emergence of the so-called emotional or emotive Internet.[7]
+
+The existing approaches in emotion recognition to classify certain emotion types can be generally classified into three main categories: knowledge-based techniques, statistical methods, and hybrid approaches.[8]
+
+Knowledge-based techniques[edit]
+Knowledge-based techniques (sometimes referred to as lexicon-based techniques), utilize domain knowledge and the semantic and syntactic characteristics of text and potentially spoken language in order to detect certain emotion types.[9] In this approach, it is common to use knowledge-based resources during the emotion classification process such as WordNet, SenticNet,[10] ConceptNet, and EmotiNet,[11] to name a few.[12] One of the advantages of this approach is the accessibility and economy brought about by the large availability of such knowledge-based resources.[8] A limitation of this technique on the other hand, is its inability to handle concept nuances and complex linguistic rules.[8]
+
+Knowledge-based techniques can be mainly classified into two categories: dictionary-based and corpus-based approaches.[citation needed] Dictionary-based approaches find opinion or emotion seed words in a dictionary and search for their synonyms and antonyms to expand the initial list of opinions or emotions.[13] Corpus-based approaches on the other hand, start with a seed list of opinion or emotion words, and expand the database by finding other words with context-specific characteristics in a large corpus.[13] While corpus-based approaches take into account context, their performance still vary in different domains since a word in one domain can have a different orientation in another domain.[14]
