@@ -1,0 +1,83 @@
+{
+    "platform": "BlogSpace",
+    "version": "2.3.5",
+    "generated_at": "2025-05-21T14:30:00Z",
+    "users": [
+      {
+        "id": 1,
+        "username": "alice01",
+        "email": "alice@example.com",
+        "profile": {
+          "full_name": "Alice Johnson",
+          "bio": "Tech enthusiast, writer, coffee lover.",
+          "location": "New York, USA"
+        },
+        "posts": [
+          {
+            "post_id": 101,
+            "title": "Understanding JavaScript Closures",
+            "tags": ["JavaScript", "Programming", "WebDev"],
+            "created_at": "2025-01-12T09:00:00Z",
+            "likes": 134,
+            "comments": [
+              {
+                "user": "devguy99",
+                "text": "Great explanation, very helpful!",
+                "likes": 5
+              },
+              {
+                "user": "codegirl",
+                "text": "Still a bit confusing 😅",
+                "likes": 2
+              }
+            ]
+          },
+          {
+            "post_id": 102,
+            "title": "CSS Grid vs Flexbox",
+            "tags": ["CSS", "Frontend"],
+            "created_at": "2025-02-05T11:20:00Z",
+            "likes": 89,
+            "comments": []
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "username": "bob_dev",
+        "email": "bob@example.com",
+        "profile": {
+          "full_name": "Bob Martinez",
+          "bio": "Backend developer and Open Source contributor.",
+          "location": "Berlin, Germany"
+        },
+        "posts": [
+          {
+            "post_id": 103,
+            "title": "REST vs GraphQL",
+            "tags": ["API", "GraphQL", "REST"],
+            "created_at": "2025-03-01T13:45:00Z",
+            "likes": 156,
+            "comments": [
+              {
+                "user": "frontendfan",
+                "text": "REST is still relevant!",
+                "likes": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "analytics": {
+      "total_users": 2,
+      "total_posts": 3,
+      "total_comments": 3,
+      "most_liked_post": {
+        "title": "REST vs GraphQL",
+        "likes": 156,
+        "author": "bob_dev"
+      }
+    }
+  }
+  

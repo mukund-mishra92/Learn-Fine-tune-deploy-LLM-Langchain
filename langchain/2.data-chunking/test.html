@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Big HTML Page Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            padding: 5px 10px;
+            background: #007bff;
+            color: white;
+            border-radius: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        form {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Big HTML Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Intro</a></li>
+                <li><a href="#table">Table</a></li>
+                <li><a href="#form">Form</a></li>
+                <li><a href="#images">Images</a></li>
+                <li><a href="#script">Script</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="section1">
+        <h2>Introduction</h2>
+        <p>This is a sample page with various HTML components. It includes sections, lists, tables, forms, and even JavaScript for interactivity.</p>
+
+        <h3>Subsection</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet tincidunt nulla. Suspendisse ut dolor non nulla porta pretium. Aliquam erat volutpat. Sed dapibus viverra dolor.</p>
+        
+        <ul>
+            <li>Unordered item 1</li>
+            <li>Unordered item 2</li>
+            <li>Unordered item 3</li>
+        </ul>
+
+        <ol>
+            <li>Ordered item 1</li>
+            <li>Ordered item 2</li>
+            <li>Ordered item 3</li>
+        </ol>
+    </section>
+
+    <section id="table">
+        <h2>Data Table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Alice</td><td>alice@example.com</td><td>Admin</td></tr>
+                <tr><td>Bob</td><td>bob@example.com</td><td>Editor</td></tr>
+                <tr><td>Charlie</td><td>charlie@example.com</td><td>Viewer</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="form">
+        <h2>Contact Form</h2>
+        <form>
+            <label>Name: <input type="text" name="name"></label><br><br>
+            <label>Email: <input type="email" name="email"></label><br><br>
+            <label>Message:<br><textarea name="message" rows="5" cols="40"></textarea></label><br><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <section id="images">
+        <h2>Images</h2>
+        <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+        <img src="https://via.placeholder.com/200" alt="Placeholder Image">
+    </section>
+
+    <section id="script">
+        <h2>Interactive Script</h2>
+        <button onclick="showMessage()">Click Me</button>
+        <p id="message"></p>
+
+        <script>
+            function showMessage() {
+                document.getElementById("message").innerText = "Hello from JavaScript!";
+            }
+        </script>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
