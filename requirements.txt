@@ -12,3 +12,5 @@ wikipedia
 langchain-text-splitters
 unstructured
 chromadb
+langgraph
+langchain-core
