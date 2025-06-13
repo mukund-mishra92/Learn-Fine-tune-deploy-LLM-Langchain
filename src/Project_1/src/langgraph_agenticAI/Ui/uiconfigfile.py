@@ -1,7 +1,7 @@
 from configparser import ConfigParser
 
 class Config:
-    def __init__(self, config_file="/Users/balmukundmishra/Desktop/Learn-Fine-tune-deploy-LLM-Langchain/Project_1/src/langgraph_agenticAI/Ui/uiconfigfile.ini"):
+    def __init__(self, config_file="/Users/balmukundmishra/Desktop/Learn-Fine-tune-deploy-LLM-Langchain/src/Project_1/src/langgraph_agenticAI/Ui/uiconfigfile.ini"):
         self.config = ConfigParser()
         self.config.read(config_file)
 
