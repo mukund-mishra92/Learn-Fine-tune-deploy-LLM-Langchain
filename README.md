@@ -11,3 +11,7 @@ conda activate full_path_venv
 ## install requirement.txt
 
 pip install -r requirements.txt
+
+## To run the basic chatbot, you need to
+### cd src/Project
+### streamlit run app.py
